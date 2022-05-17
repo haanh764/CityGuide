@@ -1,5 +1,6 @@
 import 'package:city_guide/component/item_photo.dart';
 import 'package:city_guide/component/item_video.dart';
+import 'package:city_guide/component/item_voice.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/component/map.dart';
 import 'package:city_guide/model/places.dart';
@@ -119,6 +120,12 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
                 color: black,
               ),
             ),
+          ),
+          SizedBox(
+            height: 30,
+              child: ItemVoice(
+                urlVoice: widget.place.voiceDescription,
+              ),
           ),
           const SizedBox(
             height: 18.0,
