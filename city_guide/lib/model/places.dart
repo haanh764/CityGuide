@@ -30,7 +30,7 @@ var placeList = [
   Place(
     name: 'Hoa Lo Prison Relic', 
     category: 'Place', 
-    description: 'Located at the centre of Ha Noi capital, Hoa Lo prison historical relic (Maison Centralna) is the testimony of a period of the fighting movements. It is a symbol of the nation’s fearless determination in struggle and the resilient sprit of the Vietnamese patriots who were kept here. Now many original artifacts are archived in the space of more than 2000m2, the Memorial Monument, original objects, sculptures and the permanent exhibitions at Hoa Lo prison historical relic are set up to introduce visitors to its progress from when the French colonialists built the prison in 1896, until the liberation of the capital (10/1954): Period the French used the Prison to arrest the Vietnamese patriotic and revolutionary fighters; And the following period from 1964 to 1973, the Vietnamese government used a part of the Prison to hold the American Pilots.', 
+    description: 'Located at the centre of Ha Noi capital, Hoa Lo prison historical relic (Maison Centralna) is the testimony of a period of the fighting movements. It is a symbol of the nation’s fearless determination in struggle and the resilient spirit of the Vietnamese patriots who were kept here. Now many original artifacts are archived in the space of more than 2000m2, the Memorial Monument, original objects, sculptures, and the permanent exhibitions at Hoa Lo prison historical relic are set up to introduce visitors to its progress from when the French colonialists built the prison in 1896 until the liberation of the capital (October 1954): Period the French used the Prison to arrest the Vietnamese patriotic and revolutionary fighters. And the following period from 1964 to 1973, the Vietnamese government used a part of the Prison to hold the American Pilots.',
     voiceDescription: 'voiceDescription', 
     photoCover: 'images/cover-hoalo.jpg', 
     urlPhoto: ['https://www.uncovervietnam.com/wp-content/uploads/2020/01/hanoi-hoa-lo-prison02.jpg', 
@@ -38,7 +38,7 @@ var placeList = [
       'https://www.uncovervietnam.com/wp-content/uploads/2020/01/Maison-Centrale-Museum-Hanoi.jpg', 
       'https://1.bp.blogspot.com/-cRuPWHVdcK4/X4wx2FfApGI/AAAAAAAAJAk/5AWNFC9b1cQffxcn1d0DcJVXLdcAgFfegCLcBGAsYHQ/w640-h428/nha-tu-hoa-lo-9.jpeg', 
       'https://1.bp.blogspot.com/-ry5K72UiWvA/X4wxB9GTzYI/AAAAAAAAI_w/2FpFZL9Yc6cJH9T28X0V9lS4esDFuLxhwCLcBGAsYHQ/s640/nha-tu-hoa-lo.jpeg'], 
-    urlVideo: 'https://www.youtube.com/watch?v=al0eWZlU7bU&ab_channel=ExploreHanoi', 
+    urlVideo: 'DkKxRn0dMhI', 
     location: Location(
       region: 'Hanoi',
       subRegion: 'Old Quarter',
@@ -68,7 +68,7 @@ var placeList = [
       'https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/old-data/dataimages/201509/original/images1095320_dai_ly_ve_may_bay_di_ha_noi_04.jpg', 
       'https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/dac-nguyet-lau-768x432.jpg', 
       'https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/thap-hoa-phong.jpg'], 
-    urlVideo: 'https://www.youtube.com/watch?v=WR2ApqIYtfc', 
+    urlVideo: 'WR2ApqIYtfc', 
     location: Location(
       region: 'Hanoi',
       subRegion: 'Old Quarter',
@@ -98,7 +98,7 @@ var placeList = [
       'http://4.bp.blogspot.com/-ALu_SWYLb3E/URHkjvJTNgI/AAAAAAAAHOQ/PmSf_FowjIc/s1600/Nha+hat+lon+Ha+Noi+12.jpg', 
       'http://3.bp.blogspot.com/--p7i5v98Sqw/URHkRH_iXJI/AAAAAAAAHOA/pAQ8FOlpAgM/s1600/Nha+hat+lon+Ha+Noi+10.jpg', 
       'http://4.bp.blogspot.com/-WmmVoYOmpoM/URHj2PJPdQI/AAAAAAAAHNo/hNNWCm-cv34/s1600/Nha+hat+lon+Ha+Noi+07.jpg'], 
-    urlVideo: 'https://www.youtube.com/watch?v=X9vbZKZ5k2Y&ab_channel=VOVTVTravel', 
+    urlVideo: 'X9vbZKZ5k2Y', 
     location: Location(
       region: 'Hanoi',
       subRegion: 'Old Quarter',
@@ -128,7 +128,7 @@ var placeList = [
       'https://icdn.dantri.com.vn/thumb_w/640/125b55411d/2017/12/24/img20171224014011569-4316f.jpg', 
       'https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/nha-tho-lon-ha-noi-1-768x488.jpg', 
       'https://phongveminhquan.vn/wp-content/uploads/2017/11/nha-tho-lon-1.png'], 
-    urlVideo: 'https://www.youtube.com/watch?v=0JmbPu-mHZQ&ab_channel=For91DaysTravelBlog', 
+    urlVideo: 'XJ45msOsdaI', 
     location: Location(
       region: 'Hanoi',
       subRegion: 'Old Quarter',
@@ -158,7 +158,7 @@ var placeList = [
       'https://nld.mediacdn.vn/thumb_w/684/2019/10/8/7-1570539234558154048263.jpg', 
       'https://i-dulich.vnecdn.net/2019/09/06/Pho-Phung-Hung-Trung-Thu-Vnexpress9-1567752620_r_680x0.jpg', 
       'https://vcdn-kinhdoanh.vnecdn.net/2019/10/09/train-2-1640-1570556244.jpg'], 
-    urlVideo: 'https://www.youtube.com/watch?v=Q3oaAjH2nC8&ab_channel=WanderlustTravelVideos', 
+    urlVideo: 'Q3oaAjH2nC8', 
     location: Location(
       region: 'Hanoi',
       subRegion: 'Old Quarter',

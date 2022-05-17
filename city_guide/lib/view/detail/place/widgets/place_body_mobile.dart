@@ -1,4 +1,5 @@
 import 'package:city_guide/component/item_photo.dart';
+import 'package:city_guide/component/item_video.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/component/map.dart';
 import 'package:city_guide/model/places.dart';
@@ -146,6 +147,13 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
                 );
               },
             ),
+          ),
+          const SizedBox(
+            height: 24.0,
+          ),
+          SizedBox(
+            height: 140.0,
+            child: ItemVideo(urlVideo: widget.place.urlVideo),
           ),
           const SizedBox(
             height: 24.0,
