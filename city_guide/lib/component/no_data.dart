@@ -20,7 +20,7 @@ class NoData extends StatelessWidget {
           height: 12,
         ),
         const Text(
-          'No Data',
+          'No suitable trips found',
           style: TextStyle(
             fontFamily: 'NunitoSans',
             fontWeight: FontWeight.bold,

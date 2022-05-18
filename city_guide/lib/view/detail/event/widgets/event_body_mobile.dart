@@ -86,7 +86,7 @@ class _EventBodyMobileState extends State<EventBodyMobile> {
             height: 18.0,
           ),
           Text(
-            '${widget.event.title}, ${widget.event.location.country}',
+            widget.event.title.replaceAll("\n", " "),
             style: const TextStyle(
               fontSize: 18,
               fontFamily: 'Roboto',
@@ -103,13 +103,13 @@ class _EventBodyMobileState extends State<EventBodyMobile> {
               children: [
                 const WidgetSpan(
                   child: Icon(
-                    Icons.account_circle,
+                    Icons.place,
                     size: 14,
                     color: blue,
                   ),
                 ),
                 TextSpan(
-                  text: ' ${widget.event.date}',
+                  text: ' ${widget.event.location.address}',
                 )
               ],
               style: const TextStyle(

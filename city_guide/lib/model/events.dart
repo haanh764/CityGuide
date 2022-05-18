@@ -23,7 +23,7 @@ class Event {
 
 var eventList = [
   Event(
-    title: 'Thang Long \nWater Puppet',
+    title: 'Thang Long\nWater Puppet',
     subTitle: 'Theatre \n& Performances',
     category: 'Event',
     content: 'The art form of water puppetry originated at least 1,000 years ago in the rice fields of north Vietnam. Particularly if you’re traveling with kids, you’d be remiss to leave Hanoi without catching a show at the Thang Long Water Puppet Theatre. A Vietnamese orchestra accompanies the water puppets, with some modern special effects.',
@@ -39,7 +39,7 @@ var eventList = [
     ),
     date: '2022-06-01',),
   Event(
-    title: 'Authentic \nBat Trang',
+    title: 'Authentic\nBat Trang',
     subTitle: 'Art \n& Pottery',
     category: 'Event',
     content: 'Bat Trang is famous for a large range of high quality ceramic products like bowl, dish, pot, cup, wine pot, a big flower-vase, leg lamp, lime-pot, big-bellied jar, pictures... Join in this tour to explore their production process. Enjoy the rural Red River landscape on the way to Bat Trang pottery village. Explore the hancraft proccess of ceramic production. Go shopping for unique ceramic items to take home. Join in making ceramic things by yourself',
@@ -55,7 +55,7 @@ var eventList = [
     ),
     date: '2022-06-01',),
   Event(
-    title: 'Summer Crafts \n& Prints Market',
+    title: 'Summer Crafts\n& Prints Market',
     subTitle: 'Art & Craft Event',
     category: 'Event',
     content: 'Summer Crafts & Prints Market is a fair that brings together professional craft makers and artists who use print as a medium to convey their original creations. If you have ever been overwhelmed by the meticulousness of handmade products created by the manufacturers themselves in Vietnam, SCPM will open up a new land for you to discover subtleties and open perspectives of printing products.',

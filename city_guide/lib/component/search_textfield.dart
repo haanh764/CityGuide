@@ -39,7 +39,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
           border: InputBorder.none,
           focusedBorder: InputBorder.none,
           enabledBorder: InputBorder.none,
-          hintText: "What you want to do?",
+          hintText: "What do you want to do in Hanoi?",
           prefixIcon: Icon(
             Icons.search,
             color: grey,
