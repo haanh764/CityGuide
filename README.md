@@ -2,6 +2,11 @@
 
 <img src="./images/main_scr1.jpg" width="150"> &nbsp; <img src="./images/main_scr2.jpg" width="150"> &nbsp; <img src="./images/place_scr.jpg" width="150"> &nbsp; <img src="./imgs/event_scr.jpg" width="150"> &nbsp; <img src="./images/accommodation_scr.jpg" width="150"> &nbsp; <img src="./images/guide_tour_scr.jpg" width="150"> &nbsp; <img src="./images/favorite_scr.jpg" width="150"> 
 
+Demo video 
+
+https://user-images.githubusercontent.com/17596118/169173579-a43dbf84-809f-4456-880f-c65005aa1bf7.mp4
+
+
 Application's features:
 
 1. Events module
