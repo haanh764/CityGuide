@@ -88,46 +88,101 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
           const SizedBox(
             height: 18.0,
           ),
-          Text(
-            '${widget.place.name}, ${widget.place.location.country}',
-            style: const TextStyle(
-              fontSize: 18,
-              fontFamily: 'Roboto',
-              fontWeight: FontWeight.bold,
-              color: black,
-            ),
-          ),
-          const SizedBox(
-            height: 6.0,
-          ),
-          RichText(
-            textAlign: TextAlign.start,
-            text: TextSpan(
-              children: [
-                const WidgetSpan(
-                  child: Icon(
-                    Icons.account_circle,
-                    size: 14,
-                    color: blue,
-                  ),
-                ),
-                TextSpan(
-                  text: ' ${widget.place.location.subRegion}',
-                )
-              ],
-              style: const TextStyle(
-                fontSize: 12,
-                fontFamily: 'NunitoSans',
-                color: black,
+          Row(
+            children: [
+              Expanded(
+                flex: 4,
+                child: Padding (
+                  padding: const EdgeInsets.only(right: 8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '${widget.place.name}, ${widget.place.location.country}',
+                        style: const TextStyle(
+                          fontSize: 18,
+                          fontFamily: 'Roboto',
+                          fontWeight: FontWeight.bold,
+                          color: black,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 6.0,
+                      ),
+                      RichText(
+                        textAlign: TextAlign.start,
+                        text: TextSpan(
+                          children: [
+                            const WidgetSpan(
+                              child: Icon(
+                                Icons.place,
+                                size: 14,
+                                color: blue,
+                              ),
+                            ),
+                            TextSpan(
+                              text: ' ${widget.place.location.address}',
+                            )
+                          ],
+                          style: const TextStyle(
+                            fontSize: 12,
+                            fontFamily: 'NunitoSans',
+                            color: black,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 6.0,
+                      ),
+                      RichText(
+                        textAlign: TextAlign.start,
+                        text: TextSpan(
+                          children: [
+                            const WidgetSpan(
+                              child: Icon(
+                                Icons.star,
+                                size: 14,
+                                color: yellow,
+                              ),
+                            ),
+                            TextSpan(
+                              text: ' ${widget.place.rating} by reviewers',
+                            )
+                          ],
+                          style: const TextStyle(
+                            fontSize: 12,
+                            fontFamily: 'NunitoSans',
+                            color: black,
+                          ),
+                        ),
+                      ),
+                    ]),)
               ),
-            ),
-          ),
-          SizedBox(
-            height: 30,
-              child: ItemVoice(
-                urlVoice: widget.place.voiceDescription,
+              Expanded(
+                flex: 0,
+                child: Column(
+                  children: [
+                    SizedBox(
+                      child: ItemVoice(
+                        urlVoice: widget.place.voiceDescription,
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 2.0,
+                    ),
+                    const Text(
+                      'Voice Description',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 12,
+                        fontFamily: 'NunitoSans',
+                        color: grey,
+                      ),
+                    ),
+                  ],
+                ) 
               ),
-          ),
+          ],),
           const SizedBox(
             height: 18.0,
           ),
@@ -186,15 +241,19 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
             height: 24.0,
           ),
           Container(
-            color: Colors.grey[300],
+            color: Colors.grey[200],
+            padding: const EdgeInsets.all(12.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: const <Widget>[
                 Icon(Icons.comment),
                 SizedBox(width: 10.0,),
-                Text('Reviews', style: TextStyle(fontSize: 16, fontFamily: 'NunitoSans', color: black),),
+                Text('Reviews', style: TextStyle(fontSize: 16, fontFamily: 'NunitoSans', fontWeight: FontWeight.bold, color: black),),
               ],
             ),
+          ),
+          const SizedBox(
+            height: 6.0,
           ),
           SizedBox(
             height: 140.0,
@@ -203,13 +262,16 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
               itemCount: widget.place.reviews.length,
               itemBuilder: (context, index) {
                 return Padding(
-                  padding: const EdgeInsets.only(bottom: 8.0),
+                  padding: const EdgeInsets.only(bottom: 10.0),
                   child: ItemReview(
                     review: widget.place.reviews[index],
                   ),
                 );
               },
             ),
+          ),
+          const SizedBox(
+            height: 6.0,
           ),
         ],
       ),

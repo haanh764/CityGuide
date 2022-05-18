@@ -127,7 +127,7 @@ class PostingAccommodation extends StatelessWidget {
                 ),
               ),
               Text(
-                accommodation.location.subRegion,
+                accommodation.category,
                 style: const TextStyle(
                   fontSize: 12,
                   fontFamily: 'NunitoSans',

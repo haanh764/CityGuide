@@ -35,7 +35,8 @@ class _ItemVoiceState extends State<ItemVoice> {
       child: Row(
         children: [
           IconButton(
-            icon: const Icon(Icons.mic_rounded),
+            icon: const Icon(
+              Icons.mic_rounded,),
             onPressed: () {
               if (_playAudio) {
                 audioPlayer.pause();

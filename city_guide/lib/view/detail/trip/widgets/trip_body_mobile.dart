@@ -123,7 +123,7 @@ class _TripBodyMobileState extends State<TripBodyMobile> {
                             ),
                             TextSpan(
                               text:
-                                  ' ${widget.trip.location.country} - ${widget.trip.location.subRegion}',
+                                  ' ${widget.trip.location.address} - ${widget.trip.location.country}',
                             )
                           ],
                           style: const TextStyle(
@@ -183,19 +183,19 @@ class _TripBodyMobileState extends State<TripBodyMobile> {
           const SizedBox(
             height: 4.0,
           ),
-          // Text(
-          //   '${widget.trip.date} (${widget.trip.duration})',
-          //   style: const TextStyle(
-          //     fontSize: 12,
-          //     fontFamily: 'NunitoSans',
-          //     color: grey,
-          //   ),
-          // ),
+          Text(
+            'Estimated duration: ${widget.trip.duration}',
+            style: const TextStyle(
+              fontSize: 12,
+              fontFamily: 'NunitoSans',
+              color: grey,
+            ),
+          ),
           const SizedBox(
             height: 24.0,
           ),
           const Text(
-            'Trip Plan',
+            'Trip Description',
             style: TextStyle(
               fontSize: 16,
               fontFamily: 'NunitoSans',
@@ -223,7 +223,7 @@ class _TripBodyMobileState extends State<TripBodyMobile> {
             height: 24.0,
           ),
           const Text(
-            'Inclusion',
+            'Trip Plan',
             style: TextStyle(
               fontSize: 16,
               fontFamily: 'NunitoSans',
@@ -257,38 +257,6 @@ class _TripBodyMobileState extends State<TripBodyMobile> {
           const SizedBox(
             height: 18.0,
           ),
-          // const Text(
-          //   'Exclusion',
-          //   style: TextStyle(
-          //     fontSize: 16,
-          //     fontFamily: 'NunitoSans',
-          //     fontWeight: FontWeight.bold,
-          //     color: black,
-          //   ),
-          // ),
-          // const SizedBox(
-          //   height: 8.0,
-          // ),
-          // widget.trip.exclusion.isEmpty
-          //     ? const Text(
-          //         'No Exclusion',
-          //         style: TextStyle(
-          //           fontFamily: 'NunitoSans',
-          //           color: grey,
-          //         ),
-          //       )
-          //     : Column(
-          //         crossAxisAlignment: CrossAxisAlignment.start,
-          //         children: widget.trip.exclusion
-          //             .map((exclusion) => Text(
-          //                   '- $exclusion',
-          //                   style: const TextStyle(
-          //                     fontFamily: 'NunitoSans',
-          //                     color: grey,
-          //                   ),
-          //                 ))
-          //             .toList(),
-          //       ),
           const SizedBox(
             height: 18.0,
           ),

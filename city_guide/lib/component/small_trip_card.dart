@@ -91,7 +91,7 @@ class _SmallTripCardState extends State<SmallTripCard> {
                     ),
                   ),
                   Text(
-                    widget.trip.location.subRegion,
+                    widget.trip.location.address,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(

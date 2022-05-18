@@ -147,14 +147,6 @@ class PostingPlace extends StatelessWidget {
                     )),)
                   ]
                 )),
-              // Text(
-              //   place.rating.toString(),
-              //   style: const TextStyle(
-              //     fontSize: 12,
-              //     fontFamily: 'NunitoSans',
-              //     color: grey,
-              //   ),
-              // ),
             ],
           );
   }

@@ -29,7 +29,7 @@ class Place {
 var placeList = [
   Place(
     name: 'Hoa Lo Prison', 
-    category: 'Place', 
+    category: 'Historical', 
     description: 'Located at the centre of Ha Noi capital, Hoa Lo prison historical relic (Maison Centralna) is the testimony of a period of the fighting movements. It is a symbol of the nation’s fearless determination in struggle and the resilient spirit of the Vietnamese patriots who were kept here. Now many original artifacts are archived in the space of more than 2000m2, the Memorial Monument, original objects, sculptures, and the permanent exhibitions at Hoa Lo prison historical relic are set up to introduce visitors to its progress from when the French colonialists built the prison in 1896 until the liberation of the capital (October 1954): Period the French used the Prison to arrest the Vietnamese patriotic and revolutionary fighters. And the following period from 1964 to 1973, the Vietnamese government used a part of the Prison to hold the American Pilots.',
     voiceDescription: 'voice_description/voice_hoalo_prison.mp3', 
     photoCover: 'images/cover-hoalo.jpg', 
@@ -40,10 +40,7 @@ var placeList = [
       'https://1.bp.blogspot.com/-ry5K72UiWvA/X4wxB9GTzYI/AAAAAAAAI_w/2FpFZL9Yc6cJH9T28X0V9lS4esDFuLxhwCLcBGAsYHQ/s640/nha-tu-hoa-lo.jpeg'], 
     urlVideo: 'DkKxRn0dMhI', 
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Old Quarter',
       country: 'Vietnam',
-      location: 'Hanoi, Vietnam',
       address: 'No 1 Hoa Lo, Tran Hung Dao, Hoan Kiem, Ha Noi, Vietnam',
       latitude: 21.026396681738273,
       longitude: 105.85080978046621,
@@ -59,7 +56,7 @@ var placeList = [
   ),
   Place(
     name: 'Hoan Kiem Lake', 
-    category: 'Place', 
+    category: 'Historical', 
     description: 'Hoan Kiem Lake (Lake of the Restored Sword) - A rare breed of turtle enjoys this popular lake almost as much as countless locals and tourists. Hoan Kiem Lake is a dynamic daily tableau, from morning walks amid locals doing exercises on the shore, to young couples water-gazing on park benches, to the multiple shopping and sight-seeing opportunities in the vicinity.  Centrally located in the city, Hoan Kiem Lake serves as a massive home base, and provides endless people-watching and recreational opportunities on the edge of the Old Quarter.', 
     voiceDescription: 'voice_description/voice_hoan_kiem_lake.mp3', 
     photoCover: 'images/cover-hoguom.png', 
@@ -70,10 +67,7 @@ var placeList = [
       'https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/thap-hoa-phong.jpg'], 
     urlVideo: 'WR2ApqIYtfc', 
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Old Quarter',
       country: 'Vietnam',
-      location: 'Hanoi, Vietnam',
       address: 'Hang Trong, Hoan Kiem, Hanoi, Vietnam',
       latitude: 21.028804778892198, 
       longitude: 105.85215012077187,
@@ -89,7 +83,7 @@ var placeList = [
   ),
   Place(
     name: 'Hanoi Opera House', 
-    category: 'Place', 
+    category: 'Art', 
     description: 'Resembling the Opéra Palais Garnier, Hanoi Opera House, built in 10 years since 1911 by two French architects. The magnificent building became one of the top landmarks in Hanoi. The Opera House hosts cultural entertaining performances, bamboo cirque, contemporary dance, orchestra concerts and government events. Come to the front gate to check availability and ticket to a performance in this iconic building.', 
     voiceDescription: 'voice_description/voice_opera.mp3', 
     photoCover: 'images/cover-opera-house.jpg', 
@@ -100,10 +94,7 @@ var placeList = [
       'http://4.bp.blogspot.com/-WmmVoYOmpoM/URHj2PJPdQI/AAAAAAAAHNo/hNNWCm-cv34/s1600/Nha+hat+lon+Ha+Noi+07.jpg'], 
     urlVideo: 'X9vbZKZ5k2Y', 
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Old Quarter',
       country: 'Vietnam',
-      location: 'Hanoi, Vietnam',
       address: 'No 1, Trang Tien, Hoan Kiem, Ha Noi, Vietnam',
       latitude: 21.024399434182282, 
       longitude: 105.85744925366731,
@@ -119,7 +110,7 @@ var placeList = [
   ),
   Place(
     name: 'St.Joseph Cathedral', 
-    category: 'Place', 
+    category: 'Historical', 
     description: 'St. Joseph`s Cathedral (Vietnamese: Nha Tho Lon Hanoi; French: Cathédrale Saint-Joseph de Hanoï) is a church on Nha Chung Street in the Hoan Kiem District of Hanoi, Vietnam. It is a late 19th-century Gothic Revival (Neo-Gothic style) church that serves as the cathedral of the Roman Catholic Archdiocese of Hanoi. The cathedral was named after Joseph, the patron saint of Vietnam. Construction began in 1886, with the architectural style described as resembling Notre Dame de Paris. The church was one of the first structures built by the French colonial government in Indochina when it opened in December 1886. It is the oldest church in Hanoi.', 
     voiceDescription: 'voice_description/voice_cathedral.mp3', 
     photoCover: 'images/cover-nhatho.jpg', 
@@ -130,13 +121,10 @@ var placeList = [
       'https://phongveminhquan.vn/wp-content/uploads/2017/11/nha-tho-lon-1.png'], 
     urlVideo: 'XJ45msOsdaI', 
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Old Quarter',
       country: 'Vietnam',
-      location: 'Hanoi, Vietnam',
       address: '40 Nha Chung Street, Hang Trong, Hoan Kiem, Hanoi, Vietnam',
-      latitude: 21.029386728306978,
-      longitude: 105.85164471272593,
+      latitude: 21.027560001783222, 
+      longitude: 105.84863355573204,
     ), 
     rating: 4.5, 
     reviews: [
@@ -149,7 +137,7 @@ var placeList = [
   ),
   Place(
     name: 'Hanoi Train Street', 
-    category: 'Place', 
+    category: 'Attractions', 
     description: 'Located on the West side of Hanoi Old Quarter, Hanoi train street is a unique attraction where you can experience the “death-defying” moment when the train passes about 0.4 m away. The Hanoi Train Street is one of the most famous and adventurous tourist spots in Hanoi. It`s a tiny narrow street hidden in one of the back streets of Hanoi and surrounded by high narrow houses packed closely together. These families` backyards are the railways where the train passes a few times per day.', 
     voiceDescription: 'voice_description/voice_train_street.mp3', 
     photoCover: 'images/cover-train-street.jpg', 
@@ -160,10 +148,7 @@ var placeList = [
       'https://vcdn-kinhdoanh.vnecdn.net/2019/10/09/train-2-1640-1570556244.jpg'], 
     urlVideo: 'Q3oaAjH2nC8', 
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Old Quarter',
       country: 'Vietnam',
-      location: 'Hanoi, Vietnam',
       address: '2RHV+M34, Dien Ban, Hoan Kiem, Hanoi, Vietnam',
       latitude: 21.029261971515727,
       longitude: 105.84267104038769,

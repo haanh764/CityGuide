@@ -86,7 +86,7 @@ class _AccommodationBodyMobileState extends State<AccommodationBodyMobile> {
             height: 18.0,
           ),
           Text(
-            '${widget.accommodation.name}, ${widget.accommodation.location.country}',
+            widget.accommodation.name.replaceAll("\n", " "),
             style: const TextStyle(
               fontSize: 18,
               fontFamily: 'Roboto',
@@ -103,13 +103,13 @@ class _AccommodationBodyMobileState extends State<AccommodationBodyMobile> {
               children: [
                 const WidgetSpan(
                   child: Icon(
-                    Icons.account_circle,
+                    Icons.place,
                     size: 14,
                     color: blue,
                   ),
                 ),
                 TextSpan(
-                  text: ' ${widget.accommodation.location.subRegion}',
+                  text: ' ${widget.accommodation.location.address}',
                 )
               ],
               style: const TextStyle(

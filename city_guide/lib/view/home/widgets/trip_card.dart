@@ -100,7 +100,7 @@ class _TripCardState extends State<TripCard> {
                             ),
                           ),
                           Text(
-                            widget.trip.location.subRegion,
+                            widget.trip.location.address,
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(

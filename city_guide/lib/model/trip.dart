@@ -32,7 +32,7 @@ var tripList = [
   Trip(
     name: 'Hoa Lo Prison Night Tour',
     description:
-        ' A night tour of Hanoi`s Hoa Lo Prison, called “Sacred Night — Glorious Vietnamese Spirit,”. It will take visitors on a rollercoaster ride of emotions: horror at the brutality of the colonial prison, admiration for the prisoners and their sacrifice, and pride in the unyielding spirit of those who were part of Vietnam`s glorious history.',
+        'A night tour of Hanoi`s Hoa Lo Prison, called “Sacred Night — Glorious Vietnamese Spirit,”. It will take visitors on a rollercoaster ride of emotions: horror at the brutality of the colonial prison, admiration for the prisoners and their sacrifice, and pride in the unyielding spirit of those who were part of Vietnam`s glorious history.',
     duration: '2 Hours',
     price: 7.0,
     places: [
@@ -48,20 +48,17 @@ var tripList = [
     ],
     category: 'History',
     location: Location(
-      region: 'Old Quarter',
-      subRegion: 'Hanoi',
       country: 'Vietnam',
-      location: 'Hanoi',
       address: 'No 1 Hoa Lo, Tran Hung Dao, Hoan Kiem, Hanoi',
-      latitude: -8.621213,
-      longitude: 115.086807,
+      latitude: 21.026396681738273,
+      longitude: 105.85080978046621,
     ),
     favorite: true,
   ),
   Trip(
     name: 'Hanoi Street Food Tour',
     description:
-        'Discovering Hanoi`s Old Quarter street foods can be a leap of faith without a guide to steer you to the must-eats and prevent you getting lost. With this small-group tour, you`ll visit tried-and-trusted food spots to sample classics, such as steamed pancakes, noodle soup, and more, all with a guide to describe each dish and help you navigate.',
+        'Discovering Hanoi`s Old Quarter street foods can be a leap of faith without a guide to steer you to the must-eats and prevent you getting lost. With this small-group tour, you`ll visit tried-and-trusted food spots to sample classics, such as steamed pancakes, noodle soup, and more, all with a guide to describe each dish and help you navigate.\n Meeting point at: 01 Hang Ngang, Hang Dao, Hoan Kiem, Hanoi.',
     duration: 'Full Day',
     price: 29.89,
     places: [
@@ -86,10 +83,7 @@ var tripList = [
     ],
     category: 'Food and Drink',
     location: Location(
-      region: 'Old Quarter',
-      subRegion: 'Hanoi',
       country: 'Vietnam',
-      location: 'Hanoi',
       address: 'Hang Ngang, Hoan Kiem, Hanoi',
       latitude: 21.03435940400758, 
       longitude: 105.85098012081463,
@@ -99,7 +93,7 @@ var tripList = [
   Trip(
     name: 'Coffee Lovers Tour',
     description:
-        'Heavily influenced by its French colonial past, Hanoi`s coffee scene promises something quite unique. From modern brews to traditional egg coffees and robustas, the city offers something for any kind of coffee lover. This tour offers a glimpse of the city`s coffee scene, with a focus on the coffee shops and coffee bars.',
+        'Heavily influenced by its French colonial past, Hanoi`s coffee scene promises something quite unique. From modern brews to traditional egg coffees and robustas, the city offers something for any kind of coffee lover. This tour offers a glimpse of the city`s coffee scene, with a focus on the coffee shops and coffee bars.\n Meeting point at: 01 Hang Ngang, Hang Dao, Hoan Kiem, Hanoi.',
     duration: 'Half Day',
     price: 24.36,
     places: [
@@ -120,10 +114,7 @@ var tripList = [
     ],
     category: 'Foods',
     location: Location(
-      region: 'Old Quarter',
-      subRegion: 'Hanoi',
       country: 'Vietnam',
-      location: 'Hanoi',
       address: 'Hang Ngang, Hoan Kiem, Hanoi',
       latitude: 21.03435940400758, 
       longitude: 105.85098012081463,
@@ -133,7 +124,7 @@ var tripList = [
   Trip(
     name: 'Temples & Museums Tour',
     description:
-        'Explore Hanoi`s rich architecture and culture on a tour that fits all of the highlights into a half-day excursion perfect for busy travelers who have limited time in the city. While the bustling city can be overwhelming on your own, with a small-group tour you don`t have to worry about navigating the busy streets and can learn about the sites along the way from your guide. The tour including: \n - Temple of Literature & National University (Quoc Tu Giam) - It is one of several temples in Vietnam which is dedicated to Confucius, sages and scholars. The temple is located to the south of the Imperial Citadel of Thăng Long. The various pavilions, halls, statues and stelae of doctors are places where offering ceremonies, study sessions and the strict exams of the Đại Việt took place. \n - Ho Chi Minh Mausoleum: The Chairman Ho Chi Minh Mausoleum is a mausoleum which serves as the resting place of Vietnamese Revolutionary leader Ho Chi Minh in Hanoi, Vietnam. It is a large building located in the center of Ba Dinh Square, where Ho, Chairman of the Workers` Party of Vietnam from 1951 until his death in 1969, read the Declaration of Independence on 2 September 1945, establishing the Democratic Republic of Vietnam. It is also known as Ba Dinh Mausoleum and is open to the public. \n -Tran Quoc Pagoda: Tran Quoc Pagoda located by Thanh Nien Road has a history of about 1400 years, which is the oldest temple in Thang Long, Hanoi in particular and in Vietnam in general.',
+        'Explore Hanoi`s rich architecture and culture on a tour that fits all of the highlights into a half-day excursion perfect for busy travelers who have limited time in the city. While the bustling city can be overwhelming on your own, with a small-group tour you don`t have to worry about navigating the busy streets and can learn about the sites along the way from your guide. The tour including: \n - Temple of Literature & National University (Quoc Tu Giam) - It is one of several temples in Vietnam which is dedicated to Confucius, sages and scholars. The temple is located to the south of the Imperial Citadel of Thăng Long. The various pavilions, halls, statues and stelae of doctors are places where offering ceremonies, study sessions and the strict exams of the Đại Việt took place. \n - Ho Chi Minh Mausoleum: The Chairman Ho Chi Minh Mausoleum is a mausoleum which serves as the resting place of Vietnamese Revolutionary leader Ho Chi Minh in Hanoi, Vietnam. It is a large building located in the center of Ba Dinh Square, where Ho, Chairman of the Workers` Party of Vietnam from 1951 until his death in 1969, read the Declaration of Independence on 2 September 1945, establishing the Democratic Republic of Vietnam. It is also known as Ba Dinh Mausoleum and is open to the public. \n -Tran Quoc Pagoda: Tran Quoc Pagoda located by Thanh Nien Road has a history of about 1400 years, which is the oldest temple in Thang Long, Hanoi in particular and in Vietnam in general.\nMeeting point at: 58 Quoc Tu Giam, Van Mieu, Hanoi.',
     duration: 'Half Day',
     price: 28.72,
     places: [
@@ -150,20 +141,17 @@ var tripList = [
     ],
     category: 'History',
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Hanoi',
       country: 'Vietnam',
-      location: 'Hanoi',
-      address: 'Old Quarter, Hanoi',
-      latitude: 21.03435940400758, 
-      longitude: 105.85098012081463,
+      address: '58 Quoc Tu Giam, Van Mieu, Hanoi',
+      latitude: 21.02771773140162, 
+      longitude: 105.83570772090687,
     ),
     favorite: false,
   ),
   Trip(
     name: 'Tour for Young Travellers',
     description:
-        'This tour covers the most popular places in Hanoi for young people to visit. Live a day as a genZ in Hanoi! The tour includes: \n - Complex 01: Complex 01 in Tay Son, Hanoi is the gathering place of many fashion shops, cafes, and restaurants, consisting of 3 floors with an open space design, mainly taking in natural light. The architecture of this place is a harmonious blend of classical and modern, which is a new place to be "checked-in" by young people. It will be the best place if you want to get perfect photos. \n - We Escape: the best reality Escape Game provider in Ha Noi.\n - Vincom Center for Contemporary Art VCCA: VCCA impresses with its artistic space and extremely modern and minimalist architecture. Unlike other museums, VCCA brings art to the public with a very new, creative, and interesting approach. From time to time, this place will organize exhibitions with different themes. \n - Lotte Observation Deck: An island in the sky. The Sky Walk features a wide reaching sight of the city, as if walking on Hanoi`s cloud.',
+        'This tour covers the most popular places in Hanoi for young people to visit. Live a day as a genZ in Hanoi! The tour includes: \n - Complex 01: Complex 01 in Tay Son, Hanoi is the gathering place of many fashion shops, cafes, and restaurants, consisting of 3 floors with an open space design, mainly taking in natural light. The architecture of this place is a harmonious blend of classical and modern, which is a new place to be "checked-in" by young people. It will be the best place if you want to get perfect photos. \n - We Escape: the best reality Escape Game provider in Ha Noi.\n - Vincom Center for Contemporary Art VCCA: VCCA impresses with its artistic space and extremely modern and minimalist architecture. Unlike other museums, VCCA brings art to the public with a very new, creative, and interesting approach. From time to time, this place will organize exhibitions with different themes. \n - Lotte Observation Deck: An island in the sky. The Sky Walk features a wide reaching sight of the city, as if walking on Hanoi`s cloud.\nMeeting point at: Royal City, 72 Nguyen Trai, Hanoi.',
     duration: 'Full Day',
     price: 40.0,
     places: [
@@ -182,13 +170,10 @@ var tripList = [
     ],
     category: 'Entertainment',
     location: Location(
-      region: 'Hanoi',
-      subRegion: 'Hanoi',
       country: 'Hanoi',
-      location: 'Hanoi',
       address: 'Hanoi',
-      latitude: 21.03435940400758, 
-      longitude: 105.85098012081463,
+      latitude: 21.000901309561407, 
+      longitude: 105.8159817268957,
     ),
     favorite: true,
   ),
