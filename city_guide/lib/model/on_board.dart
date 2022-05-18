@@ -13,12 +13,12 @@ class OnBoard {
 var onBoardList = [
   OnBoard(
     image: 'assets/images/image-onboard-1.png',
-    title: 'Plan Your Trip in Hanoi',
+    title: 'Welcome to Hanoi City Guide',
     description: 'Explore the city of Hanoi and plan your trip in Hanoi',
   ),
   OnBoard(
     image: 'assets/images/image-onboard-2.png',
-    title: 'Begin The Adventure in Hanoi',
+    title: 'Begin Your Adventure in Hanoi',
     description: 'Save the date and begin the adventure in Hanoi',
   ),
   OnBoard(
