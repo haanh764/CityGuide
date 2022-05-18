@@ -28,7 +28,7 @@ var accommodationList = [
     category: 'Hotel',
     description:
       'A prominent fixture in the heart of Hanoi since 1901, French colonial-style Sofitel Legend Metropole Hanoi – with its white façade, green shutters, wrought iron detail, and lush courtyard lawn – portrays an authentic sense of rich heritage, fascinating history and romance. The hotel boasts a long tradition as a popular rendezvous for discerning travelers, among them ambassadors, celebrities, and heads of state. Metropole Hanoi has been the recipient of numerous international awards for its excellent service. Celebrating the passion for great cuisine, the hotel houses a complement of distinctive bars and restaurants, including the bespoke cocktail bar, whisky lounge and restaurant angelina, Parisian café-inspired La Terrasse, haute cuisine Le Beaulieu, and traditional Vietnamese gastronomy Spices Garden.',
-    photoCover: 'images/cover-metropol.jpg',
+    photoCover: 'assets/images/cover-metropol.jpg',
     urlPhoto: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/dc/33/3b/la-terrasse-du-metropole.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b0/f1/74/le-club-bar.jpg?w=1200&h=-1&s=1',
@@ -53,7 +53,7 @@ var accommodationList = [
     category: 'Hotel',
     description:
       'Located in the central district of Hanoi and by Giang Vo lake, Dolce by Wyndham Hanoi Golden Lake is a state-of-the-art architecture of the capital city. The hotel building exterior is fully 24k gold-plated which comes along with classic luxury style interior. Your stay with us is full of discovery and inspiration. Dolce by Wyndham Hanoi Golden Lake offers 342 luxurious guestrooms with 10 duplex suites and 1 presidential duplex suite. Each room is equipped with imperial style facilities and glamorous golden touch bathroom appliances. As the unequivocal leader in meetings and group accommodations, we can help plan the perfect meeting down to the last detail with 7 fully-furnished conference rooms with natural daylight and maximum group capacity 1163m2. We aim to offer you inspirational tastes and dining experience with French Lounge & Restaurant, All-day Dining Restaurant, Chinese Restaurant, Sushi Bar and Sky Bar. A captivating 24k golden plating infinity pool is complimentary for all guests. Spectacular Giang Vo lake view and West lake view from the hotel will surely amaze you. At Dolce by Wyndam Hanoi Golden Lake, we aim to transform every moment with you into extraordinary opportunity and to inspire you. Whatever you need to enhance your stay – to create, to innovate, to learn, or to grow – let us be your muse.',
-    photoCover: 'images/cover-dolce.jpg',
+    photoCover: 'assets/images/cover-dolce.jpg',
     urlPhoto: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ab/74/e7/caption.jpg?w=1200&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/bf/1d/04/dolce-by-wyndham-hanoi.jpg?w=1200&h=-1&s=1',
@@ -77,7 +77,7 @@ var accommodationList = [
     category: 'Studio',
     description:
       'Modern open plan super spacious apartment in historic Old Quarter . Panoramic view from the ROOFTOP GARDEN will give you the best views of City and full view of majestic Old Quarter. Hoan Kiem Lake, Coffee shops, museums, sightseeing within walking distance. Separate scullery/ laundry & full open plan kitchen. Private elevator and indoor parking included. Best Airbnb apartment in Hanoi Old Quarter!',
-    photoCover: 'images/cover-studio.jpg',
+    photoCover: 'assets/images/cover-studio.jpg',
     urlPhoto: [
       'https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/284953189.jpg?k=5b377b40a3337971737c9cc4f6ca120ab731338a6e3068144c2cb15463ad650c&o=&hp=1',
       'https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/284952971.jpg?k=b19ef3139748dff3b67c41e45beb78aa073a37241b36c53fb840d7ff42693aa5&o=&hp=1',

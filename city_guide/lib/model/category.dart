@@ -11,14 +11,14 @@ class Category {
 var category = [
   Category(
     name: 'History',
-    icon: 'images/category_history.png',
+    icon: 'assets/images/category_history.png',
   ),
   Category(
     name: 'Foods',
-    icon: 'images/category_food.png',
+    icon: 'assets/images/category_food.png',
   ),
   Category(
     name: 'Entertainment',
-    icon: 'images/category_entertainment.jpg',
+    icon: 'assets/images/category_entertainment.jpg',
   ),
 ];

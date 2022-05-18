@@ -39,7 +39,7 @@ var tripList = [
       'Hoa Lo Prison Relic including ticket price.',
     ],
     rating: 5.0,
-    photoCover: 'images/cover-night-tour.jpeg',
+    photoCover: 'assets/images/cover-night-tour.jpeg',
     urlPhoto: [
       'https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_666,h_444/w_41,x_7,y_7,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ci1goetuaxfkhinnn3en/SacredNight2:LivinglikeFlowersTouratHoaLoPrisonRelic.jpg',
       'https://res.klook.com/image/upload/c_fill,w_960,h_460,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/yaz0lgg3pc1l3go8vv7y.webp',
@@ -71,7 +71,7 @@ var tripList = [
       'Ta Hien Beer and Street Food',
     ],
     rating: 4.8,
-    photoCover: 'images/cover-street-food.jpg',
+    photoCover: 'assets/images/cover-street-food.jpg',
     urlPhoto: [
       'https://images.foody.vn/res/g1/8887/prof/s576x330/foody-mobile-0drisngl-jpg-612-635781077873801273.jpg',
       'https://fastly.4sqi.net/img/general/600x600/22561210_1C4rWTqemeTA0nc7AtnULIJndNsKDGHHiT0yAP1e_Hk.jpg',
@@ -104,7 +104,7 @@ var tripList = [
       'Cong Cafe',
     ],
     rating: 4.9,
-    photoCover: 'images/cover-cafe.jpg',
+    photoCover: 'assets/images/cover-cafe.jpg',
     urlPhoto: [
       'https://images.foody.vn/res/g1/9247/prof/s576x330/foody-mobile-45564654-jpg-313-636127521466786573.jpg',
       'https://images.foody.vn/res/g66/652200/prof/s640x400/foody-mobile-t1-jpg-819-636281920279710947.jpg',
@@ -133,7 +133,7 @@ var tripList = [
       'Tran Quoc Pagoda',
     ],
     rating: 4.7,
-    photoCover: 'images/cover-temples.jpg',
+    photoCover: 'assets/images/cover-temples.jpg',
     urlPhoto: [
       'https://vcdn-vnexpress.vnecdn.net/2018/11/16/van-mieu-3506-1542362274.jpg',
       'https://vcdn1-dulich.vnecdn.net/2017/08/17/Langbac1-1502954003.jpg?w=500&h=300&q=100&dpr=1&fit=crop&s=4Myy1-pdSh5-BBRUioHQFg',
@@ -161,7 +161,7 @@ var tripList = [
       'Lotte Observation Deck',
     ],
     rating: 4.9,
-    photoCover: 'images/cover-entertainment.jpg',
+    photoCover: 'assets/images/cover-entertainment.jpg',
     urlPhoto: [
       'https://vcdn-dulich.vnecdn.net/2021/01/29/complex-01-8033-1611905423.jpg',
       'https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001726750435/We%2520Escape%2520Saigon%2520Tickets-a68c93f5-e7fc-4399-b48b-642270b5d281.jpeg?_src=imagekit&tr=c-at_max,h-512,q-60,w-720',

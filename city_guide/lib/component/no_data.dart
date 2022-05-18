@@ -13,7 +13,7 @@ class NoData extends StatelessWidget {
           height: 16,
         ),
         Image.asset(
-          'images/empty.png',
+          'assets/images/empty.png',
           height: 120,
         ),
         const SizedBox(
