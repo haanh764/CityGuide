@@ -1,4 +1,4 @@
-import 'package:city_guide/model/constants.dart';
+  import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/model/trip.dart';
 import 'package:city_guide/view/detail/trip/detail_trip_screen.dart';
 import 'package:flutter/material.dart';
@@ -121,7 +121,7 @@ class _TripCardState extends State<TripCard> {
                             const WidgetSpan(
                               child: Icon(
                                 Icons.star,
-                                size: 14,
+                                size: 12,
                                 color: yellow,
                               ),
                             ),

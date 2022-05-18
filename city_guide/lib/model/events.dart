@@ -23,8 +23,8 @@ class Event {
 
 var eventList = [
   Event(
-    title: 'Thang Long Water Puppet',
-    subTitle: 'Theatre & Performances',
+    title: 'Thang Long \nWater Puppet',
+    subTitle: 'Theatre \n& Performances',
     category: 'Event',
     content: 'The art form of water puppetry originated at least 1,000 years ago in the rice fields of north Vietnam. Particularly if you’re traveling with kids, you’d be remiss to leave Hanoi without catching a show at the Thang Long Water Puppet Theatre. A Vietnamese orchestra accompanies the water puppets, with some modern special effects.',
     photoCover: 'images/cover-water-puppet.jpg',
@@ -42,8 +42,8 @@ var eventList = [
     ),
     date: '2022-06-01',),
   Event(
-    title: 'Authentic Bat Trang',
-    subTitle: 'Paint & Pottery Event',
+    title: 'Authentic \nBat Trang',
+    subTitle: 'Art Events',
     category: 'Event',
     content: 'Bat Trang is famous for a large range of high quality ceramic products like bowl, dish, pot, cup, wine pot, a big flower-vase, leg lamp, lime-pot, big-bellied jar, pictures... Join in this tour to explore their production process. Enjoy the rural Red River landscape on the way to Bat Trang pottery village. Explore the hancraft proccess of ceramic production. Go shopping for unique ceramic items to take home. Join in making ceramic things by yourself',
     photoCover: 'images/cover-pottery.jpg',
@@ -61,14 +61,14 @@ var eventList = [
     ),
     date: '2022-06-01',),
   Event(
-    title: 'Summer Crafts & Prints Market',
+    title: 'Summer Crafts \n& Prints Market',
     subTitle: 'Art & Craft Event',
     category: 'Event',
     content: 'Summer Crafts & Prints Market is a fair that brings together professional craft makers and artists who use print as a medium to convey their original creations. If you have ever been overwhelmed by the meticulousness of handmade products created by the manufacturers themselves in Vietnam, SCPM will open up a new land for you to discover subtleties and open perspectives of printing products.',
     photoCover: 'images/cover-summer-market.jpg',
-    urlPhoto: ['https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/278704989_708750990572957_3831442530811051115_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=730e14&_nc_ohc=dWEYTQQv8dQAX_-g6JD&tn=OJpYoqGXV8MImyfP&_nc_ht=scontent-vie1-1.xx&oh=00_AT9o0birEWeFZaLacY92dmDZqBvWIeJx78HG2xdQh8ppDw&oe=627F7A53', 
-      'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/279334300_712758850172171_7758914259323696476_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=730e14&_nc_ohc=o_MjRbB6Q34AX8-vYU4&_nc_ht=scontent-vie1-1.xx&oh=00_AT9sdj8arg4Fh3xYfjm7lwlRbL85ju5KkvzZxuXm40tLng&oe=627EA8F6',
-      'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/279193980_713273136787409_6401209507351221200_n.jpg?_nc_cat=109&ccb=1-6&_nc_sid=730e14&_nc_ohc=WTAbgOUoLJoAX-roPRl&_nc_ht=scontent-vie1-1.xx&oh=00_AT8N1Ert-W6K3gqHzldJX8_Fyc8SOkufq0n3Mqn5Sdab2g&oe=62801D6D',],
+    urlPhoto: ['https://vcdn1-dulich.vnecdn.net/2019/07/25/nghe-khac-dau-pho-co-ha-noi-vnexpress-2-1564028702.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dhvNqQhvC6OW_KNm23-9pw',
+      'https://vcdn1-dulich.vnecdn.net/2022/05/16/20220514-172739-2-1652671265.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fiu-l7xwSM1TIGc6tOFcRA',
+      'https://vcdn1-dulich.vnecdn.net/2022/05/14/1-1652546539.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ShTkcpfzbndNHCQJTuzJbA',],
     location: Location(
       region: 'Hanoi',
       subRegion: 'Dong Da',

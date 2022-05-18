@@ -113,31 +113,49 @@ class PostingPlace extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 8.0, top: 4.0),
+          padding: const EdgeInsets.only(left: 5.0, top: 4.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                place.name,
-                style: const TextStyle(
-                  fontSize: 12,
-                  fontFamily: 'NunitoSans',
-                  fontWeight: FontWeight.bold,
-                  color: grey,
-                ),
-              ),
-              Text(
-                place.location.subRegion,
-                style: const TextStyle(
-                  fontSize: 12,
-                  fontFamily: 'NunitoSans',
-                  color: grey,
-                ),
-              ),
+              Flexible(
+                child: Text(
+                  place.name,
+                  style: const TextStyle(
+                    fontSize: 12,
+                    fontFamily: 'NunitoSans',
+                    fontWeight: FontWeight.bold,
+                    color: grey,
+                  ),
+              ),),
+              Flexible(
+                // flex: 1,
+                child: RichText(text: TextSpan(
+                  children: [
+                    const WidgetSpan(child: Icon(
+                      Icons.star,
+                      size: 12,
+                      color: Colors.yellow,
+                    )),
+                    TextSpan(
+                      text: ' ${place.rating.toStringAsFixed(1)}',
+                      style: const TextStyle(
+                        fontSize: 12,
+                        fontFamily: 'NunitoSans',
+                        color: grey,
+                      ),
+                    ),]
+                    )),)
+                  ]
+                )),
+              // Text(
+              //   place.rating.toString(),
+              //   style: const TextStyle(
+              //     fontSize: 12,
+              //     fontFamily: 'NunitoSans',
+              //     color: grey,
+              //   ),
+              // ),
             ],
-          ),
-        ),
-      ],
-    );
+          );
   }
 }

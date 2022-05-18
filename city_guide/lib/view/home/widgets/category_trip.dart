@@ -19,7 +19,7 @@ class _CategoryTripState extends State<CategoryTrip> {
         const Padding(
           padding: EdgeInsets.only(left: 16.0, top: 2.0),
           child: Text(
-            'Explore Category',
+            'Explore By Category',
             style: TextStyle(
               fontFamily: 'NunitoSans',
               fontWeight: FontWeight.bold,

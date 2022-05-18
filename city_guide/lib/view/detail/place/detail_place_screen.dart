@@ -1,7 +1,5 @@
 import 'package:city_guide/model/places.dart';
 import 'package:city_guide/view/detail/place/widgets/place_body_mobile.dart';
-import 'package:city_guide/view/detail/place/widgets/place_body_web.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DetailPlaceScreen extends StatefulWidget {
@@ -22,11 +20,7 @@ class _DetailPlaceScreenState extends State<DetailPlaceScreen> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       return Scaffold(
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? PlaceBodyMobile(place: widget.place)
-            : PlaceBodyWeb(place: widget.place),
+        body: PlaceBodyMobile(place: widget.place),
       );
     });
   }

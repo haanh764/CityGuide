@@ -35,23 +35,23 @@ class HomeBodyMobile extends StatelessWidget {
             const SizedBox(
               height: 32,
             ),
-            const PackageTrip(),
-            const SizedBox(
-              height: 12,
-            ),
             const CategoryTrip(),
             const SizedBox(
               height: 32,
             ),
-            const PostingEvent(),
+            const PackageTrip(),
             const SizedBox(
-              height: 32,
+              height: 12,
+            ),
+            const PostingPlace(),
+            const SizedBox(
+              height: 12,
             ),
             const PostingAccommodation(),
             const SizedBox(
-              height: 32,
+              height: 12,
             ),
-            const PostingPlace(),
+            const PostingEvent(),
           ],
         ),
       ),

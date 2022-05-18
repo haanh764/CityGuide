@@ -1,7 +1,6 @@
 import 'package:city_guide/component/custom_appbar.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/view/search/widgets/search_body_mobile.dart';
-import 'package:city_guide/view/search/widgets/search_body_web.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -37,11 +36,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               )
             : null,
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? const SearchBodyMobile()
-            : const SearchBodyWeb(),
+        body: const SearchBodyMobile(),
       );
     });
   }

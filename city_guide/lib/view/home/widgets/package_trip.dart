@@ -12,7 +12,7 @@ class PackageTrip extends StatefulWidget {
 }
 
 class _PackageTripState extends State<PackageTrip> {
-  List<String> packageTrip = ["All", "Full Day", "Half Day"];
+  List<String> packageTrip = ["All", "Full Day", "Half Day", "2 Hours"];
   int selectedIndex = 0;
 
   List<Trip> tripListFiltered = tripList;
@@ -25,7 +25,7 @@ class _PackageTripState extends State<PackageTrip> {
         const Padding(
           padding: EdgeInsets.only(left: 16.0, top: 2.0),
           child: Text(
-            'Offered Guide Tours',
+            'Offered Guided Tours',
             style: TextStyle(
               fontFamily: 'NunitoSans',
               fontWeight: FontWeight.bold,

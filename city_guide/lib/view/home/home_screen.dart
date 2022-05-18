@@ -2,7 +2,6 @@ import 'package:city_guide/component/custom_appbar.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/view/favorite/favorite_screen.dart';
 import 'package:city_guide/view/home/widgets/home_body_mobile.dart';
-import 'package:city_guide/view/home/widgets/home_body_web.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -42,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Padding(
                         padding: EdgeInsets.only(left: 16.0, top: 2.0),
                         child: Text(
-                          'Explore Hanoi, the heart of Vietnam',
+                          'Explore Hanoi, the Heart of Vietnam!',
                           style: TextStyle(
                             fontSize: 18,
                             fontFamily: 'Roboto',
@@ -70,11 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               )
             : null,
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? const HomeBodyMobile()
-            : const HomeBodyWeb(),
+        body: const HomeBodyMobile(),
       );
     });
   }

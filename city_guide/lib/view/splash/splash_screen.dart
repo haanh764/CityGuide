@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:city_guide/view/on_board/on_board_screen.dart';
 import 'package:flutter/material.dart';
 

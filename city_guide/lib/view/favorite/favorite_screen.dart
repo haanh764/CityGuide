@@ -2,7 +2,6 @@ import 'package:city_guide/component/custom_appbar.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/model/trip.dart';
 import 'package:city_guide/view/favorite/widgets/favorite_body_mobile.dart';
-import 'package:city_guide/view/favorite/widgets/favorite_body_web.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -41,12 +40,8 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 ),
               )
             : null,
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? FavoriteBodyMobile(favoriteTrip: favoriteTrip)
-            : FavoriteBodyWeb(favoriteTrip: favoriteTrip),
-      );
+        body: FavoriteBodyMobile(favoriteTrip: favoriteTrip),
+        );
     });
   }
 }

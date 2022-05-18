@@ -1,7 +1,5 @@
 import 'package:city_guide/model/trip.dart';
 import 'package:city_guide/view/detail/trip/widgets/trip_body_mobile.dart';
-import 'package:city_guide/view/detail/trip/widgets/trip_body_web.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DetailTripScreen extends StatefulWidget {
@@ -22,11 +20,7 @@ class _DetailTripScreenState extends State<DetailTripScreen> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       return Scaffold(
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? TripBodyMobile(trip: widget.trip)
-            : TripBodyWeb(trip: widget.trip),
+        body: TripBodyMobile(trip: widget.trip),
       );
     });
   }

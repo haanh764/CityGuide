@@ -1,7 +1,5 @@
 import 'package:city_guide/model/events.dart';
 import 'package:city_guide/view/detail/event/widgets/event_body_mobile.dart';
-import 'package:city_guide/view/detail/event/widgets/event_body_web.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DetailEventScreen extends StatefulWidget {
@@ -22,11 +20,7 @@ class _DetailEventScreenState extends State<DetailEventScreen> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       return Scaffold(
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? EventBodyMobile(event: widget.event)
-            : EventBodyWeb(event: widget.event),
+        body: EventBodyMobile(event: widget.event),
       );
     });
   }

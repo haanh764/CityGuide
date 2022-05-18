@@ -33,7 +33,7 @@ var tripList = [
     name: 'Hoa Lo Prison Night Tour',
     description:
         ' A night tour of Hanoi`s Hoa Lo Prison, called “Sacred Night — Glorious Vietnamese Spirit,”. It will take visitors on a rollercoaster ride of emotions: horror at the brutality of the colonial prison, admiration for the prisoners and their sacrifice, and pride in the unyielding spirit of those who were part of Vietnam`s glorious history.',
-    duration: '1.5 hour',
+    duration: '2 Hours',
     price: 7.0,
     places: [
       'Hoa Lo Prison Relic including ticket price.',
@@ -62,7 +62,7 @@ var tripList = [
     name: 'Hanoi Street Food Tour',
     description:
         'Discovering Hanoi`s Old Quarter street foods can be a leap of faith without a guide to steer you to the must-eats and prevent you getting lost. With this small-group tour, you`ll visit tried-and-trusted food spots to sample classics, such as steamed pancakes, noodle soup, and more, all with a guide to describe each dish and help you navigate.',
-    duration: '1 Day',
+    duration: 'Full Day',
     price: 29.89,
     places: [
       'Breakfast - Pho Ly Quoc Su (Beef Noodle)',
@@ -100,7 +100,7 @@ var tripList = [
     name: 'Coffee Lovers Tour',
     description:
         'Heavily influenced by its French colonial past, Hanoi`s coffee scene promises something quite unique. From modern brews to traditional egg coffees and robustas, the city offers something for any kind of coffee lover. This tour offers a glimpse of the city`s coffee scene, with a focus on the coffee shops and coffee bars.',
-    duration: '8 hours',
+    duration: 'Half Day',
     price: 24.36,
     places: [
       'Dinh Cafe',
@@ -164,7 +164,7 @@ var tripList = [
     name: 'Tour for Young Travellers',
     description:
         'This tour covers the most popular places in Hanoi for young people to visit. Live a day as a genZ in Hanoi! The tour includes: \n - Complex 01: Complex 01 in Tay Son, Hanoi is the gathering place of many fashion shops, cafes, and restaurants, consisting of 3 floors with an open space design, mainly taking in natural light. The architecture of this place is a harmonious blend of classical and modern, which is a new place to be "checked-in" by young people. It will be the best place if you want to get perfect photos. \n - We Escape: the best reality Escape Game provider in Ha Noi.\n - Vincom Center for Contemporary Art VCCA: VCCA impresses with its artistic space and extremely modern and minimalist architecture. Unlike other museums, VCCA brings art to the public with a very new, creative, and interesting approach. From time to time, this place will organize exhibitions with different themes. \n - Lotte Observation Deck: An island in the sky. The Sky Walk features a wide reaching sight of the city, as if walking on Hanoi`s cloud.',
-    duration: '1 Day',
+    duration: 'Full Day',
     price: 40.0,
     places: [
       'Complex 01',

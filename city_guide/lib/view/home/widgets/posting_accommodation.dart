@@ -113,7 +113,7 @@ class PostingAccommodation extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 8.0, top: 4.0),
+          padding: const EdgeInsets.only(left: 5.0, top: 4.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

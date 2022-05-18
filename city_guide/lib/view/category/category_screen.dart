@@ -2,7 +2,6 @@ import 'package:city_guide/component/custom_appbar.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/model/trip.dart';
 import 'package:city_guide/view/category/widgets/category_body_mobile.dart';
-import 'package:city_guide/view/category/widgets/category_body_web.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -47,14 +46,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                 ),
               )
             : null,
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? CategoryBodyMobile(categoryTrip: categoryTrip)
-            : CategoryBodyWeb(
-                category: widget.category,
-                categoryTrip: categoryTrip,
-              ),
+        body: CategoryBodyMobile(categoryTrip: categoryTrip),
       );
     });
   }

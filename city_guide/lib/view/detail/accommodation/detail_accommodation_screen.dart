@@ -1,7 +1,5 @@
 import 'package:city_guide/model/accommodations.dart';
 import 'package:city_guide/view/detail/accommodation/widgets/accommodation_body_mobile.dart';
-import 'package:city_guide/view/detail/accommodation/widgets/accommodation_body_web.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DetailAccommodationScreen extends StatefulWidget {
@@ -22,11 +20,7 @@ class _DetailAccommodationScreenState extends State<DetailAccommodationScreen> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       return Scaffold(
-        body: ((defaultTargetPlatform == TargetPlatform.android ||
-                    defaultTargetPlatform == TargetPlatform.iOS) ||
-                (constraints.maxWidth <= 600))
-            ? AccommodationBodyMobile(accommodation: widget.accommodation)
-            : AccommodationBodyWeb(accommodation: widget.accommodation),
+        body: AccommodationBodyMobile(accommodation: widget.accommodation),
       );
     });
   }

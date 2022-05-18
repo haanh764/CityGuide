@@ -1,6 +1,7 @@
 import 'package:city_guide/component/item_photo.dart';
 import 'package:city_guide/component/item_video.dart';
 import 'package:city_guide/component/item_voice.dart';
+import 'package:city_guide/component/item_review.dart';
 import 'package:city_guide/model/constants.dart';
 import 'package:city_guide/component/map.dart';
 import 'package:city_guide/model/places.dart';
@@ -180,6 +181,35 @@ class _PlaceBodyMobileState extends State<PlaceBodyMobile> {
           Map(
             location: widget.place.location,
             zoom: 10.0,
+          ),
+          const SizedBox(
+            height: 24.0,
+          ),
+          Container(
+            color: Colors.grey[300],
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: const <Widget>[
+                Icon(Icons.comment),
+                SizedBox(width: 10.0,),
+                Text('Reviews', style: TextStyle(fontSize: 16, fontFamily: 'NunitoSans', color: black),),
+              ],
+            ),
+          ),
+          SizedBox(
+            height: 140.0,
+            child: ListView.builder(
+              scrollDirection: Axis.vertical,
+              itemCount: widget.place.reviews.length,
+              itemBuilder: (context, index) {
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 8.0),
+                  child: ItemReview(
+                    review: widget.place.reviews[index],
+                  ),
+                );
+              },
+            ),
           ),
         ],
       ),
