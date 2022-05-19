@@ -1,5 +1,5 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 
 class ItemVoice extends StatefulWidget {
   final String urlVoice;
@@ -44,7 +44,8 @@ class _ItemVoiceState extends State<ItemVoice> {
                   _playAudio = false;
                 });
               } else {
-                audioPlayer.play(widget.urlVoice);
+                audioPlayer.setAsset(widget.urlVoice);
+                audioPlayer.play();
                 setState(() {
                   _playAudio = true;
                 });
