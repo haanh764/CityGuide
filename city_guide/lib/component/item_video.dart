@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 class ItemVideo extends StatefulWidget {
   final String urlVideo;
@@ -19,10 +19,9 @@ class _ItemVideoState extends State<ItemVideo> {
   void initState() {
     _controller = YoutubePlayerController(
       initialVideoId: widget.urlVideo,
-      flags: const YoutubePlayerFlags(
+      params: const YoutubePlayerParams(
           mute: false,
           autoPlay: true,
-          disableDragSeek: true,
           loop: false,
           enableCaption: false),
     );
@@ -31,11 +30,9 @@ class _ItemVideoState extends State<ItemVideo> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    return YoutubePlayer(
+  Widget build(BuildContext context) {  
+    return YoutubePlayerIFrame(
       controller: _controller,
-      showVideoProgressIndicator: true,
-      progressIndicatorColor: Colors.blueAccent,
     );
   }
 }
