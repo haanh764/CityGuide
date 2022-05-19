@@ -1,5 +1,7 @@
 # Mobile and Multimedia System Main Project - City Guide Application
 
+An application that provides information about Hanoi City (the capital of Vietnam) for travelling purpose.
+
 <img src="./images/main_scr1.jpg" width="150"> &nbsp; <img src="./images/main_scr2.jpg" width="150"> &nbsp; <img src="./images/place_scr.jpg" width="150"> &nbsp; <img src="./images/event_scr.jpg" width="150"> &nbsp; <img src="./images/accommodation_scr.jpg" width="150"> &nbsp; <img src="./images/guide_tour_scr.jpg" width="150"> &nbsp; <img src="./images/favorite_scr.jpg" width="150"> 
 
 **Demo video** 
